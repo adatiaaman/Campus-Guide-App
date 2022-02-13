@@ -1,0 +1,44 @@
+PROJECT:
+
+IIT Ropar Guide App
+- google sign in - firebase
+- map - iit ropar (main campus) view - google api
+- marketplace - connect with whatsapp
+- fest details - photo, current, website
+- academics - medh, acad website, handbook, google drive material
+- places to visit nearby - open google maps
+- Contact Us
+
+- host on google play
+- improved UI
+
+// bus timings
+// delivery food
+
+places_visit
+- dharamshala:
+- shimla:
+- dehradun: 
+- mohali: 
+https://www.fabhotels.com/blog/places-to-visit-in-mohali/ 
+Fateh Burj	Sector 93
+Amb Sahib Gurudwara	Phase 8
+Gurudwara Sant Mandal Angita Sahib	Phase 8
+Thunder Zone Amusement Park	Mohali-Sirhind Road
+Punjab Cricket Association Stadium	Phase 9, Sector 63
+VR Punjab Mall or North Country Mall	Kharar – Landran Road, Sector 118
+Rock Garden	Sector 1, Chandigarh
+Gurudwara Nabha Sahib	Village Nabha Sahib, Zirakpur
+Mansa Devi Temple	Sector 4, Panchkula
+Sukhna Lake	Chandigarh
+Silvi Park	Mohali-Stadium Road
+Chattbir Zoo	Chhat
+Rose Garden	Sector 16, Chandigarh
+Sukhna Wildlife Sanctuary	North-East of Sukhna Lake
+
+- chandigarh: sukhna lake, elante mall
+https://www.tripadvisor.in/Attractions-g297596-Activities-Chandigarh.html
+https://www.holidify.com/places/chandigarh/sightseeing-and-things-to-do.html
+
+- ropar: 
+https://www.tripadvisor.in/Attractions-g2289067-Activities-Rupnagar_Rupnagarr_District_Punjab.html
