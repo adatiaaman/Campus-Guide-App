@@ -4,6 +4,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:iitrpr/screens/acad_ug.dart';
 import 'package:iitrpr/screens/campus_map.dart';
 import 'package:iitrpr/screens/contact_us.dart';
 import 'package:iitrpr/screens/fest_details.dart';
@@ -246,7 +247,13 @@ class _HomePageState extends State<HomePage> {
                         children: <Widget>[
                           TextButton(
                             child: const Text('Open'),
-                            onPressed: () {/* ... */},
+                            onPressed: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => const AcadDet()),
+                              );
+                            },
                           ),
                           const SizedBox(width: 8),
                         ],
@@ -261,13 +268,12 @@ class _HomePageState extends State<HomePage> {
                       ListTile(
                         leading: const Icon(Icons.celebration),
                         title: Text(
-                          'IIT Ropar Fests',
+                          'IIT Ropar Student Activities',
                           style: GoogleFonts.ubuntu(
                               textStyle:
                                   const TextStyle(color: Colors.black87)),
                         ),
-                        subtitle:
-                            const Text('Cultural, Technical and Sports Fest'),
+                        subtitle: const Text('Fests, Clubs and ISMP'),
                       ),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.end,

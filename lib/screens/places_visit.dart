@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class PlacesVisit extends StatefulWidget {
   PlacesVisit({Key? key}) : super(key: key);
@@ -38,9 +39,23 @@ class _PlacesVisitState extends State<PlacesVisit> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: <Widget>[
-                      TextButton(
-                        child: const Text('Open'),
-                        onPressed: () {/* ... */},
+                      IconButton(
+                        onPressed: () async {
+                          final String url =
+                              'https://www.tripadvisor.in/Attractions-g2289067-Activities-Rupnagar_Rupnagarr_District_Punjab.html';
+
+                          if (await canLaunch(url)) {
+                            await launch(
+                              url,
+                              forceSafariVC: false,
+                              // enableJavaScript: true,
+                              // forceWebView: true
+                            );
+                          } else {
+                            throw 'Could not launch $url';
+                          }
+                        },
+                        icon: const Icon(Icons.open_in_new),
                       ),
                       const SizedBox(width: 8),
                     ],
@@ -62,9 +77,23 @@ class _PlacesVisitState extends State<PlacesVisit> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: <Widget>[
-                      TextButton(
-                        child: const Text('Open'),
-                        onPressed: () {/* ... */},
+                      IconButton(
+                        onPressed: () async {
+                          final String url =
+                              'https://www.tripadvisor.in/Attractions-g297596-Activities-Chandigarh.html';
+
+                          if (await canLaunch(url)) {
+                            await launch(
+                              url,
+                              forceSafariVC: false,
+                              // enableJavaScript: true,
+                              // forceWebView: true
+                            );
+                          } else {
+                            throw 'Could not launch $url';
+                          }
+                        },
+                        icon: const Icon(Icons.open_in_new),
                       ),
                       const SizedBox(width: 8),
                     ],
@@ -86,9 +115,22 @@ class _PlacesVisitState extends State<PlacesVisit> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: <Widget>[
-                      TextButton(
-                        child: const Text('Open'),
-                        onPressed: () {/* ... */},
+                      IconButton(
+                        onPressed: () async {
+                          final String url =
+                              'https://www.tripadvisor.in/Attractions-g1584804-Activities-Mohali_Mohali_District_Punjab.html';
+                          if (await canLaunch(url)) {
+                            await launch(
+                              url,
+                              forceSafariVC: false,
+                              // enableJavaScript: true,
+                              // forceWebView: true
+                            );
+                          } else {
+                            throw 'Could not launch $url';
+                          }
+                        },
+                        icon: const Icon(Icons.open_in_new),
                       ),
                       const SizedBox(width: 8),
                     ],
@@ -110,9 +152,22 @@ class _PlacesVisitState extends State<PlacesVisit> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: <Widget>[
-                      TextButton(
-                        child: const Text('Open'),
-                        onPressed: () {/* ... */},
+                      IconButton(
+                        onPressed: () async {
+                          final String url =
+                              'https://www.tripadvisor.in/Attractions-g297663-Activities-Punjab.html';
+                          if (await canLaunch(url)) {
+                            await launch(
+                              url,
+                              forceSafariVC: false,
+                              // enableJavaScript: true,
+                              // forceWebView: true
+                            );
+                          } else {
+                            throw 'Could not launch $url';
+                          }
+                        },
+                        icon: const Icon(Icons.open_in_new),
                       ),
                       const SizedBox(width: 8),
                     ],
